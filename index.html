@@ -8,6 +8,47 @@
     <script src="index.js" defer></script> 
 </head>
 <body>
-    
+    <form>
+            <p>
+              <label for="mail">
+                <span>Please enter an email address:</span>
+                <input type="email" id="mail" name="mail" required minlength="8"/>
+                <span class="email error" aria-live="polite"></span>
+              </label>
+            </p>
+
+            <p>
+                <label for="country">
+                  <span>Please enter an country:</span>
+                  <input type="text" id="country" name="country" required minlength="3" />
+                  <span class="country error" aria-live="polite"></span>
+                </label>
+              </p>
+
+              <p>
+                <label for="zip">
+                  <span>Please enter an zip:</span>
+                  <input type="text" id="zip" name="zip" required minlength="3" />
+                  <span class="zip error" aria-live="polite"></span>
+                </label>
+              </p>
+
+              <p>
+                <label for="password">
+                  <span>Please enter an password:</span>
+                  <input type="text" id="password" name="password" required minlength="3" />
+                  <span class="password error" aria-live="polite"></span>
+                </label>
+              </p>
+
+              <p>
+                <label for="confirmpassword">
+                  <span>Please enter an confirm password:</span>
+                  <input type="text" id="confirmpassword" name="confirmpassword" required minlength="3" />
+                  <span class="confirm error" aria-live="polite"></span>
+                </label>
+              </p>
+            <button>Submit</button>
+    </form>
 </body>
 </html>
