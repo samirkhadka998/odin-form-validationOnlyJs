@@ -48,7 +48,7 @@ function CheckValidation(e) {
 
             case 'password':
             if (ele.validity.valid) {
-                password.textContent = '';
+                passwordError.textContent = '';
             }
             else {
                 showPasswordError();
